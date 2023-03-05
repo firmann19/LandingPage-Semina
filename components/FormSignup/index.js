@@ -1,4 +1,3 @@
-import Link from "next/link";
 import React, { useState } from "react";
 import Button from "../Button";
 import TextInput from "../TextInput";
@@ -29,7 +28,7 @@ export default function FormSignup() {
         email: form.email,
       }).then((res) => {
         if (res.data) {
-          toast.success("berhasil aktipkan akun", {
+          toast.success("berhasil aktifkan akun", {
             position: "top-right",
             autoClose: 5000,
             hideProgressBar: false,
